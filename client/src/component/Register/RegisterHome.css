@@ -1,0 +1,184 @@
+.register-form{
+ position: relative;
+ width: 450px;
+ background:linear-gradient(to bottom, #3d3e47 18%, rgb(48, 48, 78) 10%);
+ color: white;
+ padding: 30px 40px;
+ border-radius: 10px;
+}
+
+.register-form h1{
+    position: relative;
+    color: #333;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    text-align: center;
+    margin-top: -20px;
+    background: #04f0fc;
+    padding: 10px;
+    margin-bottom: -5px;
+    
+}
+.register-form .user-icon{
+    color: #808080; /* Grey color */
+    position: relative;
+    transform: translateX(-50%,-50%);
+    font-size: 84px; /* Adjust icon size as needed */
+    margin-bottom: 15px;
+}
+.register-form .text-field{
+    position:relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+.text-field input{
+    width: 100%;
+    height: 100%;
+    background: #2daaa3;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 20px 20px 45px;
+    box-sizing: border-box;
+}
+.text-field input ::placeholder{
+    color: white;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    background: #2daaa3;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 20px 20px 45px;
+    box-sizing: border-box;
+}
+
+.text-field .icon{
+    position: absolute;
+    left: 10px;
+    color: #333;
+    transform: translateY(-50%,-50%);
+    font-size: 16px;
+}
+
+.login-form .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label {
+    color: #08919e;
+    margin-right: 4px;
+}
+.remember-forgot input {
+    accent-color: #fff;
+    margin-right: 4px;
+}
+
+.remember-forgot a{
+    color: #08919e;
+    text-decoration: none;
+}
+.remember-forgot a:hover{   
+    text-decoration: underline;
+}
+
+.register-form .register-button{
+    width: 100%;
+    height: 45px;
+    background:#04f0fc;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.register-form .register-link{
+    font-size: 14px; 
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.register-link a{
+    color: #08919e;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+
+.input-group {
+  position: relative;
+  width: 100%;
+  height: 50px; /* Match the height of the text field */
+  margin: 20px 0;
+}
+
+.input-group input.form-control {
+  width: 100%; /* Adjusted width to accommodate the icon and additional spacing */
+  height: 100%;
+  background: #2daaa3;
+  border: none;
+  outline: none;
+  padding: 20px 20px 20px 45px; /* Adjusted padding to provide spacing */
+  box-sizing: border-box;
+}
+
+.input-group .icon {
+  position: absolute;
+  left: 10px; /* Adjusted position to align with the right side of the input */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+  font-size: 16px;
+}
+
+/* Additional style for the date picker */
+.datePicker {
+  width: 100%; /* Adjusted width to match the input field width */
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.datePicker .react-datepicker-wrapper,
+.datePicker .react-datepicker__input-container {
+  width: 100%;
+}
+
+.datePicker .react-datepicker {
+  border: none; /* Remove border to avoid duplication */
+  border-radius: 0; /* Remove border radius */
+  background: #2daaa3; /* Match input field background */
+}
+
+.datePicker .react-datepicker__triangle {
+  border-bottom-color: #2daaa3 !important; /* Match triangle color with input field background */
+}
